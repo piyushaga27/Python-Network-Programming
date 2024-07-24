@@ -1,0 +1,352 @@
+1. Basic Network Scanner
+
+Create a simple script to scan a range of IP addresses and check which ones are active.
+
+Task:
+
+    Accept a range of IP addresses.
+    Ping each IP address in the range.
+    Print out which IPs are active.
+
+Hint: Use the os module to run system ping commands.
+
+
+
+2. Simple Port Scanner
+
+Write a script that can scan for open ports on a given host.
+
+Task:
+
+    Accept a hostname or IP address.
+    Scan a range of ports on the host.
+    Print out which ports are open.
+
+Hint: Use the socket module to attempt to connect to each port.
+
+
+
+3. Basic Web Server
+
+Create a simple web server that can serve HTML files.
+
+Task:
+
+    Accept incoming HTTP requests.
+    Respond with the contents of an HTML file.
+    Handle basic GET requests.
+
+Hint: Use the http.server module.
+
+
+
+4. Banner Grabbing Script
+
+Write a script to perform banner grabbing to get information from a service running on an open port.
+
+Task:
+
+    Connect to a specified port on a target IP.
+    Send a request to get the banner.
+    Print the banner information.
+
+Hint: Use the socket module and remember to set a timeout.
+
+
+
+5. Basic Packet Sniffer
+
+Create a packet sniffer to capture and display network packets.
+
+Task:
+
+    Capture packets on a network interface.
+    Display the contents of each packet in a readable format.
+
+Hint: Use the scapy library for packet manipulation and sniffing.
+
+
+
+6. Simple Keylogger
+
+Write a basic keylogger that captures keystrokes and writes them to a file.
+
+Task:
+
+    Capture keystrokes from the keyboard.
+    Write the captured keystrokes to a log file.
+
+Hint: Use the pynput library to capture keystrokes.
+
+
+
+7. Basic Brute Force Attack Script
+
+Create a script to perform a basic brute force attack on an SSH server.
+
+Task:
+
+    Attempt to login to an SSH server using a list of usernames and passwords.
+    Print out the correct username and password if found.
+
+Hint: Use the paramiko library for SSH connections.
+
+
+
+8. Simple File Encryption/Decryption
+
+Write a script to encrypt and decrypt files using a password.
+
+Task:
+
+    Encrypt a file with a given password.
+    Decrypt the file back to its original form using the same password.
+
+Hint: Use the cryptography library for encryption and decryption.
+
+
+
+9. Basic DoS Attack Script
+
+Create a simple script to perform a Denial of Service (DoS) attack by sending a flood of requests to a server.
+
+Task:
+
+    Send a large number of requests to a target server.
+    Measure and print the impact on the server.
+
+Hint: Use the socket module and ensure you understand the legal implications and permissions before running such a script.
+
+
+
+10. Simple Proxy Server
+
+Write a basic proxy server that can forward HTTP requests and responses between a client and a server.
+
+Task:
+
+    Accept incoming HTTP requests from a client.
+    Forward the requests to the target server.
+    Send the server's response back to the client.
+
+Hint: Combine socket and threading modules.
+
+
+
+11. DNS Query Script
+
+    Task:
+
+	Perform a DNS query for a given domain name.
+        Print out the resolved IP addresses.
+        
+Hint: Use the socket module to perform DNS queries.
+
+
+
+12. ARP Spoofing Script
+
+    Task:
+    
+        Create a script to perform ARP spoofing on a local network.
+        Print out the details of intercepted packets.
+        
+Hint: Use the scapy library for ARP packet manipulation.
+
+
+
+13. Basic Password Cracker
+
+    Task:
+    
+        Create a script to perform a dictionary attack on hashed passwords.
+        Print out the cracked passwords.
+
+Hint: Use the hashlib library to compare hash values.
+
+
+
+14. Simple HTTPS Server
+
+    Task:
+    
+        Set up a basic HTTPS server to serve encrypted web pages.
+        Handle basic GET and POST requests.
+    
+Hint: Use the http.server and ssl modules.
+
+
+
+15. Network Packet Analyzer
+
+    Task:
+     
+     	Capture network packets and analyze the protocol and payload.
+        Print a summary of each captured packet.
+    
+Hint: Use the scapy library.
+
+
+
+16. Port Knocking Script
+
+    Task:
+        
+        Create a script to perform port knocking to open a port on a server.
+        Print out the status of the port before and after knocking.
+    
+Hint: Use the socket module for sending packets.
+
+
+
+17. Basic Intrusion Detection System (IDS)
+
+    Task:
+        
+        Develop a basic IDS that monitors network traffic for suspicious activity.
+        Print alerts when suspicious packets are detected.
+
+Hint: Use the scapy library for packet analysis.
+
+
+
+18. Simple SSH Honeypot
+
+    Task:
+        
+        Set up a fake SSH server to log login attempts.
+        Print out the details of each login attempt.
+
+Hint: Use the paramiko library to create the SSH server.
+
+
+
+19. Custom Firewall Script
+
+    Task:
+
+	Create a script to filter and block specific types of network traffic.
+        Print out the details of blocked packets.
+    
+Hint: Use the scapy library for packet manipulation.
+
+
+
+20. Basic Web Scraper
+
+    Task:
+        
+        Develop a web scraper to collect and analyze data from web pages.
+        Print out the collected data in a readable format.
+    
+Hint: Use the requests and beautifulsoup4 libraries.
+
+
+
+21. Simple Email Spoofing Script
+
+    Task:
+        
+        Create a script to send spoofed emails.
+        Print out the status of each sent email.
+    
+Hint: Use the smtplib and email modules.
+
+
+
+22. Basic WiFi Scanner
+
+    Task:
+        
+        Create a script to scan for nearby WiFi networks.
+        Print out the details of each detected network.
+    
+Hint: Use the scapy library for wireless packet sniffing.
+
+
+
+23. Simple Key Exchange Script
+
+    Task:
+        
+        Develop a script to perform a basic key exchange between two parties.
+        Print out the exchanged keys.
+    
+Hint: Use the cryptography library for key generation and exchange.
+
+
+
+24. Basic File Integrity Checker
+
+    Task:
+        
+        Create a script to check the integrity of files using hash values.
+        Print out the status of each checked file.
+    
+Hint: Use the hashlib library for generating hash values.
+
+
+
+25. Simple VPN Script
+
+    Task:
+        
+        Develop a basic VPN script to encrypt and tunnel network traffic.
+        Print out the status of the VPN connection.
+    
+Hint: Use the socket and ssl modules for encryption and tunneling.
+
+
+
+26. Basic SQL Injection Tester
+
+    Task:
+        
+        Create a script to test a web application for SQL injection vulnerabilities.
+        Print out the results of each test.
+    
+Hint: Use the requests library to send HTTP requests.
+
+
+
+27. Simple Data Exfiltration Script
+
+    Task:
+        
+        Develop a script to exfiltrate data over a covert channel.
+        Print out the status of each exfiltrated data chunk.
+    
+Hint: Use the socket module for network communication.
+
+
+
+28. Basic Bluetooth Scanner
+
+    Task:
+        
+        Create a script to scan for nearby Bluetooth devices.
+        Print out the details of each detected device.
+    
+Hint: Use the bluetooth library.
+
+
+
+29. Simple Remote Command Execution Script
+
+    Task:
+        
+        Develop a script to remotely execute commands on a target machine.
+        Print out the output of each executed command.
+
+Hint: Use the paramiko library for SSH connections.
+
+
+
+30. Basic Ransomware Script
+
+    Task:
+        
+        Create a script to encrypt files and display a ransom message.
+        Provide a way to decrypt the files using a key.
+    
+Hint: Use the cryptography library for encryption and decryption.
