@@ -16,6 +16,7 @@ import os
 import subprocess
 import platform
 import threading
+from colorama import init, Fore, Style
 
 def ping_ip(ip):
 
@@ -23,9 +24,9 @@ def ping_ip(ip):
     with open(os.devnull, 'wb') as devnull:
         response= subprocess.call(['ping',param,'1',ip], stdout=devnull , stderr=devnull)
     if response == 0:
-        print(f"[*] {ip} is active")
+        print(f"{Fore.GREEN}[*] {ip} is active{Style.RESET_ALL}")
     else:
-        print(f"[!] {ip} is not active")
+        print(f"{Fore.RED}[!] {ip} is not active{Style.RESET_ALL}")
 
 def main():
     subnet = input("Enter the Subnet (e.g., 192.168.1.): ")
